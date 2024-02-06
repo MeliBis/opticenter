@@ -4,15 +4,17 @@
     --main-color:#0061A9;
     --second-color:;
     --acento:;
-    
 }
+
 .btn-general{
     background-color:white ;
     padding: 10px 20px;
    
     cursor: pointer;
 }
-
+.margen{
+    margin-top: 100px;
+}
 .contenedor_intro{
     background-color: var(--main-color);
     color: white;

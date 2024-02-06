@@ -3,7 +3,7 @@ import imgGaleria1 from '../../assets/gallery/1.jpg'
 
 const Section2Gallery = () => {
   return (
-    <section className="page-section bg-light" id="portfolio">
+    <section className="page-section bg-light margen" id="portfolio">
     <div className="container">
       <div className="text-center">
         <h2 className="section-heading text-uppercase">Conoce lo más nuevo que cuida tu vista</h2>
