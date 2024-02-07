@@ -1,8 +1,7 @@
-
 const Section3Testimonials = () => {
   return (
-    <div>Section3Testimonials</div>
-  )
-}
+    <h2>testimonial</h2>
+  );
+};
 
-export default Section3Testimonials
+export default Section3Testimonials;
