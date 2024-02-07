@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import imgLogo from '../../assets/logo/logo-white.png'
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="row p-5 bg-dark text-white ">
         <div className="col-xs-12 col-md-6 col-lg-3 text-center">
           <Link className="navbar-brand " to="/">
-            <img src='' alt="" width={100} height={100} />
+            <img src={imgLogo} alt="" width={100} height={100} />
           </Link>
           <p className="pt-1  text-secondary text-decoration-none">
             Zacatlán Puebla

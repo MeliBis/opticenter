@@ -5,15 +5,15 @@ const Services = () => {
   return (
     <div className='mt-5'>
 <div className="container intro-section">
-      <section className="page-section" id="services">
+      <section className="page-section" >
         <div className="container">
           <div className="text-center">
-            <h2 className="section-heading text-uppercase">Services</h2>
+            <h2 className="section-heading text-uppercase">Servicios</h2>
             <h3 className="section-subheading text-muted">
-              Lorem ipsum dolor sit amet consectetur.
+             Tecnología de última generación: "Los mejores resultados para tu visión."
             </h3>
           </div>
-          <div className="row text-center">
+          <div className="row text-center mt-5">
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
                 <img src={productsIcon} width={100} className="" alt="" />
