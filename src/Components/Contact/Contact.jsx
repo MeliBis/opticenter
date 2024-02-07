@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Contact = () => {
   return (
     <section className="showcase">
@@ -13,9 +15,10 @@ const Contact = () => {
           <div className="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2>Sucursal Boulevard Matamoros</h2>
             <p className="lead mb-0">
-             Dirección, Teléfono <br/>
-             <button className="btn btn-secondary">Ir allá</button>
+            73310, Col San Jose, 73310 Zacatlán, Pue. <br/>
             </p>
+            <p className="text-secondary">Teléfono: 797 121 4538</p>
+             <button className="btn btn-secondary">Ir allá</button>
           </div>
         </div>
         <div className="row g-0">
@@ -27,7 +30,8 @@ const Contact = () => {
             <h2>Sucursal Zona Centro</h2>
             <p className="lead mb-0">
             Dirección, Teléfono <br/>
-            <button className="btn btn-secondary">Ir allá</button>
+            <Link className="btn btn-primary btn-xl " to="https://maps.app.goo.gl/sFCfd3Fu1m45AjQJ7">Ir allá</Link>
+
             </p>
           </div>
         </div>

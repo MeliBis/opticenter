@@ -8,13 +8,14 @@ const Section3Testimonials = () => {
       </h2>
       <div className="testimonials">
         <div id="carouselExample" className="carousel slide">
-          <div className="carousel-inner">
+          <div className="carousel-inner ">
             <div className="carousel-item active">
               
               <div className="single-item">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="profile">
+                      
                       <div className="img-area">
                         <img src={imgTestimonial1} alt=""  />
                       </div>
