@@ -6,7 +6,7 @@ const Section0Portada = () => {
     <div className="container">
       <p className="masthead-subheading">Bienvenidos a Opti Center</p>
       <div className="masthead-heading  fs-2">¡Es un gusto verte !</div>
-      <a className="btn btn-primary btn-xl " href="#services">Conócenos</a>
+      <a className="btn btn-primary btn-xl " href="/acerca">Conócenos</a>
     </div>
 </header> 
   )

@@ -30,7 +30,7 @@ const Contact = () => {
             <h2>Sucursal Zona Centro</h2>
             <p className="lead mb-0">
             Dirección, Teléfono <br/>
-            <Link className="btn btn-primary btn-xl " to="https://maps.app.goo.gl/sFCfd3Fu1m45AjQJ7">Ir allá</Link>
+            <Link className="btn btn-primary btn-xl " to="https://acortar.link/1fuPcC">Ir allá</Link>
 
             </p>
           </div>
