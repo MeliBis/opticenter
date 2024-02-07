@@ -1,7 +1,10 @@
+import About from "../About/About"
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <div>
+      <About/>
+    </div>
   )
 }
 
