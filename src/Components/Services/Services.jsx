@@ -3,15 +3,15 @@ import servicesIcon from '../../assets/services/servicios-icono.png'
 import sucursalIcon from '../../assets/services/sucursal-icono.png'
 const Services = () => {
   return (
-    <div className='mt-5'>
-<div className="container intro-section">
+    <div className=''>
+<div className="container intro-section ">
       <section className="page-section" >
         <div className="container">
           <div className="text-center">
-            <h2 className="section-heading text-uppercase">Servicios</h2>
+       {/*      <h2 className="section-heading text-uppercase">Servicios</h2>
             <h3 className="section-subheading text-muted">
              Tecnología de última generación: "Los mejores resultados para tu visión."
-            </h3>
+            </h3> */}
           </div>
           <div className="row text-center mt-5">
             <div className="col-md-4">
@@ -20,9 +20,6 @@ const Services = () => {
                </span>
               <h4 className="my-3">Productos</h4>
               <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
               </p>
             </div>
             <div className="col-md-4">
@@ -31,9 +28,7 @@ const Services = () => {
               </span>
               <h4 className="my-3">Servicios</h4>
               <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+               
               </p>
             </div>
             <div className="col-md-4">
@@ -42,9 +37,7 @@ const Services = () => {
               </span>
               <h4 className="my-3">Sucursales</h4>
               <p className="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+               
               </p>
             </div>
           </div>

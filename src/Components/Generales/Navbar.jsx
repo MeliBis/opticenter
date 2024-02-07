@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/acerca">
-                Acerda de
+                Acerca de
               </Link>
             </li>
             <li className="nav-item">
