@@ -1,7 +1,11 @@
+import Contact from "../Contact/Contact"
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <div>
+      <Contact/>
+     
+    </div>
   )
 }
 

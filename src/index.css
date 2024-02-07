@@ -4,6 +4,7 @@
     --main-color:#0061A9;
     --second-color:;
     --acento:;
+    --white:#fff;
 }
 
 .btn-general{
@@ -12,11 +13,43 @@
    
     cursor: pointer;
 }
+.btn-secondary{
+  background-color: var(--main-color);
+  margin-top: 5px;
+}
+.btn-secondary:hover {
+background-color: var(--white);
+border: 2px solid var(--main-color) ;
+color: var(--main-color);
+}
 .margen{
     margin-top: 100px;
 }
 .contenedor_intro{
     background-color: var(--main-color);
-    color: white;
-    border: 1px solid white ;
+    color: var(--white);
+    border: 1px solid var(--white) ;
+}
+/* contacto */
+
+.showcase .showcase-text {
+    padding: 3rem;
+  }
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+.firs-section-img{
+    background-image: url("./assets/gallery/6.jpg");
+}
+.second-section-img{
+    background-image: url("./assets/gallery/5.jpg");
+}
+.third-section-img{
+    background-image: url("./assets/gallery/4.jpg");
 }
