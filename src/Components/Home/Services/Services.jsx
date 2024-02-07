@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import productsIcon from '../../assets/services/productos-icono.png'
-import servicesIcon from '../../assets/services/servicios-icono.png'
-import sucursalIcon from '../../assets/services/sucursal-icono.png'
+import productsIcon from '../../../assets/services/productos-icono.png'
+import servicesIcon from '../../../assets/services/servicios-icono.png'
+import sucursalIcon from '../../../assets/services/sucursal-icono.png'
 const Services = () => {
   return (
     <div className=''>
@@ -30,7 +30,7 @@ const Services = () => {
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <Link to='/servicios'>
+                <Link to='/productos'>
                   <img src={servicesIcon} width={100} className="" alt="" />
                 </Link>
               </span>

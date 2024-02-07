@@ -3,7 +3,7 @@ import imgLogo from "../../assets/logo/logo-white.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 py-2">
+    <footer className="bg-gray-800 py-2 margen">
       <div className="container-fluid text-center">
         <div className="row p-5 bg-dark text-white ">
           <div className="col-xs-12 col-md-6 col-lg-3 text-center">

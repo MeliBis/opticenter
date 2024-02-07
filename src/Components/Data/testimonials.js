@@ -1,9 +1,10 @@
+import imgTestimonials from '../../assets/testimonials/meli.png'
 const testiminials=[
     {
         id:1,
         name: " María García López",
         description:'',
-        img:'',
+        img:imgTestimonials,
     },
     {
         id:2,

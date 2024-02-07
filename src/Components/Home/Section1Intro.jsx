@@ -11,7 +11,7 @@ const IntroSection1 = () => {
           <p className="text-white-75 mb-4 text-light">
             Todo lo que necesitas lo encontrarás en Opti Center
           </p>
-          <Link to='/servicios'className="btn btn-general btn-xl" >
+          <Link to='/productos'className="btn btn-general btn-xl" >
             Ver armazones
           </Link>
         </div>

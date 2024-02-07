@@ -1,7 +1,7 @@
 
 const Section4FrequentQuestions = () => {
   return (
-    <main className=" bg-light d-flex aling-items-center mb-5">
+    <main className=" bg-light d-flex aling-items-center mb-5 margen">
     <section className="h-75 container-sm mx-auto">
       <h2 className=" text-center py-3">
         Preguntas frecuentes

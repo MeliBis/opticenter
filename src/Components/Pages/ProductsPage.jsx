@@ -1,7 +1,12 @@
+import GalleryProducts from "../Products-services/GalleryProducts"
+import IntroProducts from "../Products-services/IntroProducts"
 
 const ProductsPage = () => {
   return (
-    <div>ProductsPage</div>
+    <div>
+      <IntroProducts/>
+      <GalleryProducts/>
+    </div>
   )
 }
 
