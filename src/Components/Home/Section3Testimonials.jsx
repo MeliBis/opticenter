@@ -1,8 +1,10 @@
-import data from '../Data/testimonials'
-import imgTestimonial from '../../assets/testimonials/meli.png'
+/* import data from '../Data/testimonials'
+ */import imgTestimonial from '../../assets/testimonials/mel.jpeg'
+
 const Section3Testimonials = () => {
   return (
-    <div className="h2 container d-flex justify-content-center">
+    <div className=" container d-flex justify-content-center margen">
+      <h2 className='text-center'>Testimonios</h2>
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide  text-center margen"
@@ -10,15 +12,16 @@ const Section3Testimonials = () => {
       >
         <div className="carousel-inner  ">
           <div className="carousel-item active ">
-            <div className="card" style={{ width: "30rem" }}>
-              <img src={imgTestimonial} className="card-img-top rounded-circle" alt="..." />
+            <div className="card p-3" style={{ width: "30rem" }}>
+              <img src={imgTestimonial} className=" " alt="..." />
               <div className="card-body">
-                <h3 className="card-text">
-              Testimonio descripcion
-                </h3>
-                <h4 className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, fugiat.
-                </h4>
+              <h5 className='text-secondary mb-1'>Melissa Barrios</h5>
+              <h6 className='text-secondary'>Zacatlán, Puebla</h6>
+
+                <p className="text-secondary">
+                Hace unos meses comencé a tener problemas de visión y decidí visitar Opti Center. Desde el primer momento, me sentí muy bien atendida. Me realizaron un examen visual completo y me explicaron con detalle las diferentes opciones que tenía para corregir mi vista.
+                </p>
+                
               </div>
             </div>
           </div>
