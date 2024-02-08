@@ -17,7 +17,7 @@ const PregFrec = [
     }, 
     {
         Question: "¿Cuánto cuestan las gafas?",
-        Answer: "El precio de las gafas varía dependiendo del tipo de montura, los lentes y la óptica donde las compre."
+        Answer: "El precio de las gafas varía dependiendo del tipo de montura y los lentes "
     }, 
     {
         Question: "¿Tienen servicio de examen de la vista?",

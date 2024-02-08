@@ -19,7 +19,7 @@ const Section4FrequentQuestions = () => {
             >
            
 
-              <span className="px-3 questionSection">Pregunta #1</span>
+              <span className="px-3 questionSection">¿Cuándo debo hacerme un examen de la vista?</span>
             </button>
           </h2>
           <div
@@ -28,7 +28,7 @@ const Section4FrequentQuestions = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>Respuesta 1</p>
+              <p className='text-secondary'>Se recomienda hacerse un examen de la vista cada dos años, o más a menudo si tiene alguna condición ocular particular</p>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ const Section4FrequentQuestions = () => {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              <span className="px-3 questionSection">Pregunta #2</span>
+              <span className="px-3 questionSection">¿Cómo se pueden corregir los defectos visuales?</span>
             </button>
           </h2>
           <div
@@ -51,7 +51,7 @@ const Section4FrequentQuestions = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>Respuesta 2</p>
+              <p className='text-secondary'>Los defectos visuales se pueden corregir con gafas, lentes de contacto o cirugía</p>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Section4FrequentQuestions = () => {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              <span className="px-3 questionSection">Pregunta #3</span>
+              <span className="px-3 questionSection">¿Cuáles son los defectos visuales más comunes? </span>
             </button>
           </h2>
           <div
@@ -74,7 +74,7 @@ const Section4FrequentQuestions = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>Respuesta 3</p>
+              <p className='text-secondary'>Los defectos visuales más comunes son la miopía, la hipermetropía y el astigmatismo.</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Section4FrequentQuestions = () => {
               aria-expanded="false"
               aria-controls="collapseFour"
             >
-              <span className="px-3 questionSection">Pregunta #4</span>
+              <span className="px-3 questionSection">¿Qué tipo de gafas me recomiendan?</span>
             </button>
           </h2>
           <div
@@ -97,7 +97,7 @@ const Section4FrequentQuestions = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>Respuesta 4</p>
+              <p className='text-secondary'>El tipo de gafas que mejor le convenga dependerá de sus necesidades visuales y de su estilo personal.</p>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@ const Section4FrequentQuestions = () => {
               aria-expanded="false"
               aria-controls="collapseFive"
             >
-              <span className="px-3 questionSection">Pregunta #5</span>
+              <span className="px-3 questionSection">¿Cuánto cuestan las gafas?</span>
             </button>
           </h2>
           <div
@@ -121,7 +121,7 @@ const Section4FrequentQuestions = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p>Respuesta 5</p>
+              <p className='text-secondary'>El precio de las gafas varía dependiendo del tipo de montura y los lentes</p>
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@ import {
     Routes,
     Route,
     BrowserRouter as Router,
+    Navigate,
   
   } from "react-router-dom";
 import HomePages from "../Pages/HomePages";
@@ -22,6 +23,9 @@ const Routing = () => {
             <Route path="/contacto" element={<ContactPage/>}/>
             <Route path="/productos" element={<ProductsPage/>}/>
             <Route path="/servicios" element={<ServicesPage/>}/>
+
+            <Route path="/*" element={<Navigate to="/" />} />
+
         </Routes>
         <Footer/>
     </Router>

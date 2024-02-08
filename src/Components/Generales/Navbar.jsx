@@ -4,7 +4,7 @@ import imgLogo from '../../assets/logo/opricenter-logo-azul.png'
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+      <div className="container-fluid  ">
         <Link className="navbar-brand" to="/">
           <img src={imgLogo} alt="" width={80} />
         </Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse d-flex gap-2 d-md-flex justify-content-md-end" id="navbarNav ">
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">

@@ -1,4 +1,9 @@
 import imgGaleria1 from '../../assets/gallery/1.jpg'
+import imgGaleria2 from '../../assets/gallery/2.jpg'
+import imgGaleria3 from '../../assets/gallery/3.jpg'
+import imgGaleria4 from '../../assets/gallery/4.jpg'
+import imgGaleria5 from '../../assets/gallery/5.jpg'
+import imgGaleria6 from '../../assets/gallery/6.jpg'
 
 
 const Section2Gallery = () => {
@@ -33,7 +38,7 @@ const Section2Gallery = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGaleria1} alt="..." />
+              <img className="img-fluid" src={imgGaleria6} alt="..." />
             </a>
             <div className="portfolio-caption">
               <div className="portfolio-caption-heading">Explora</div>
@@ -48,7 +53,7 @@ const Section2Gallery = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGaleria1} alt="..." />
+              <img className="img-fluid" src={imgGaleria2} alt="..." />
             </a>
             <div className="portfolio-caption">
               <div className="portfolio-caption-heading">Prueba</div>
@@ -63,7 +68,7 @@ const Section2Gallery = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGaleria1} alt="..." />
+              <img className="img-fluid" src={imgGaleria3} alt="..." />
             </a>
             <div className="portfolio-caption">
               <div className="portfolio-caption-heading">Prueba</div>
@@ -78,7 +83,7 @@ const Section2Gallery = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGaleria1} alt="..." />
+              <img className="img-fluid" src={imgGaleria4} alt="..." />
             </a>
             <div className="portfolio-caption">
               <div className="portfolio-caption-heading">Southwest</div>
@@ -93,7 +98,7 @@ const Section2Gallery = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGaleria1} alt="..." />
+              <img className="img-fluid" src={imgGaleria5} alt="..." />
             </a>
             <div className="portfolio-caption">
               <div className="portfolio-caption-heading">Todo terreno</div>

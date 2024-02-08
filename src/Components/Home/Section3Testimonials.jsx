@@ -4,8 +4,8 @@
 const Section3Testimonials = () => {
   return (
     <div className=" container d-flex justify-content-center margen">
-      <h2 className='text-center'>Testimonios</h2>
-      <div
+{/*       <h2 className='text-center'>Testimonios</h2>
+ */}      <div
         id="carouselExampleAutoplaying"
         className="carousel slide  text-center margen"
         data-bs-ride="carousel"
@@ -13,7 +13,7 @@ const Section3Testimonials = () => {
         <div className="carousel-inner  ">
           <div className="carousel-item active ">
             <div className="card p-3" style={{ width: "30rem" }}>
-              <img src={imgTestimonial} className=" " alt="..." />
+              <img src='' className=" img-" alt="..." />
               <div className="card-body">
               <h5 className='text-secondary mb-1'>Melissa Barrios</h5>
               <h6 className='text-secondary'>Zacatlán, Puebla</h6>
@@ -27,6 +27,7 @@ const Section3Testimonials = () => {
           </div>
           <div className="carousel-item">
             <img src="..." className="d-block w-100" alt="..." />
+            
           </div>
           <div className="carousel-item">
             <img src="..." className="d-block w-100" alt="..." />
