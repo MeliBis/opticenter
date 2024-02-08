@@ -8,7 +8,7 @@ const ProductsPage = () => {
       <IntroProducts/>
       <IconosProducts/>
       <GalleryProducts/>
-
+      <h2 className="container margen text-center">carrusel productos</h2>
     </div>
   )
 }

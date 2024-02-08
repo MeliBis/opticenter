@@ -10,7 +10,6 @@ import Footer from "../Generales/Footer";
 import Navbar from "../Generales/Navbar";
 import AboutPage from "../Pages/AboutPage";
 import ContactPage from "../Pages/ContactPage";
-import ServicesPage from "../Pages/ServicesPage";
 import ProductsPage from "../Pages/ProductsPage";
 
 const Routing = () => {
@@ -22,7 +21,6 @@ const Routing = () => {
             <Route path="/acerca" element={<AboutPage/>}/>
             <Route path="/contacto" element={<ContactPage/>}/>
             <Route path="/productos" element={<ProductsPage/>}/>
-            <Route path="/servicios" element={<ServicesPage/>}/>
 
             <Route path="/*" element={<Navigate to="/" />} />
 

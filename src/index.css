@@ -6,7 +6,7 @@
     --acento:;
     --white:#fff;
 }
-h1,h2{
+h1,h2,h5{
   color: var(--main-color);
 }
 .btn-general{
@@ -60,7 +60,10 @@ color: var(--main-color);
 } 
 
 /* testimonials */
+.card-testimonial_style{
 
+  
+}
 /* gallery products */
 .gallery-row{
   display: flex;

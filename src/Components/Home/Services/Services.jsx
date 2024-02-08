@@ -30,7 +30,7 @@ const Services = () => {
             </div>
             <div className="col-md-4 mb-3">
               <span className="fa-stack fa-4x">
-                <Link to='/servicios'>
+                <Link to='/productos'>
                   <img src={servicesIcon} width={100} className="" alt="" />
                 </Link>
               </span>
