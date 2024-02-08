@@ -22,7 +22,7 @@ const Section3Testimonials = () => {
                 <h5 className="card-title">Cata Micaela Barrios</h5>
                 <p className="card-text text-secondary "><b> Zacatlán, Puebla</b> </p>
                 <p className="card-text text-secondary">
-                Tuve que graduarme la vista con urgencia y acudí a ÓpticaVisión. Me atendieron con gran profesionalidad y rapidez. En menos de una hora me habían realizado el examen visual y me habían dado las gafas graduadas.
+                Tuve que graduarme la vista con urgencia y acudí a Opti Center. Me atendieron con gran profesionalidad y rapidez. En menos de una hora me habían realizado el examen visual y me habían dado las gafas graduadas.
                 </p>
              
               </div>

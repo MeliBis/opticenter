@@ -112,7 +112,7 @@ const Section4FrequentQuestions = () => {
               aria-expanded="false"
               aria-controls="collapseFive"
             >
-              <span className="px-3 questionSection">¿Cuánto cuestan las gafas?</span>
+              <span className="px-3 questionSection">¿Puedo usar lentes de contacto?</span>
             </button>
           </h2>
           <div
@@ -121,7 +121,8 @@ const Section4FrequentQuestions = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              <p className='text-secondary'>El precio de las gafas varía dependiendo del tipo de montura y los lentes</p>
+              <p className='text-secondary'>
+              Sí, puedes usar lentes de contacto en la mayoría de los casos. Sin embargo, es importante que te hagas un examen de la vista con un profesional de la salud visual para que pueda evaluar tu salud ocular y determinar si eres apto para usar lentes de contacto.</p>
             </div>
           </div>
         </div>
