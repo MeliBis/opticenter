@@ -11,7 +11,7 @@ const IntroProducts = () => {
             <img src={imgProduct} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width={700} height={500} loading="lazy" />
           </div>
           <div className="col-lg-6">
-            <h2 className="display-5 fw-bold lh-1 mb-3">Tus ojos merecen lo mejor,<span className="text-secondary">elige nuestros armazones  </span> </h2>
+            <h2 className="display-5 fw-bold lh-1 mb-3">Tus ojos merecen lo mejor,<span className="text-warning">elige nuestros armazones  </span> </h2>
             <p className="lead">Armazones para hombres, mujeres y niños."</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <Link to='/menu' className="text-reset">
