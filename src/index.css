@@ -9,7 +9,9 @@
 h1,h2,h4,h5{
   color: var(--main-color);
 }
-
+.color-primary{
+  color: var(--acento);
+}
 .btn-general{
     background-color:white ;
     padding: 10px 20px;
@@ -59,7 +61,12 @@ color: var(--main-color);
 .third-section-img{
     background-image: url("./assets/gallery/4.jpg");
 } 
-
+.contact-link{
+  color: var(--main-color);
+}
+.contact-link:hover{
+  color: var(--acento);
+}
 /* testimonials */
 .card-testimonial_style{
 
