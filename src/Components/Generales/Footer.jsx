@@ -6,82 +6,78 @@ const Footer = () => {
     <footer className="bg-gray-800 py-2 margen">
       <div className="container-fluid text-center">
         <div className="row p-5 bg-dark text-white ">
-          <div className="col-xs-12 col-md-6 col-lg-3 text-center">
+          <div className="col-xs-12 col-md-6 col-lg-4 text-center">
             <Link className="navbar-brand " to="/">
               <img src={imgLogo} alt="" width={100} height={100} />
             </Link>
             <p className="pt-1  text-secondary text-decoration-none">
-              Zacatlán Puebla
+              Zacatlán, Puebla
             </p>
           </div>
-          <div className="col-xs-12 col-md-6 col-lg-3">
+          
+          <div className="col-xs-12 col-md-6 col-lg-2">
             <p className="h5 mb-3 mt-3">Horario de atención</p>
-
-            <div></div>
-            <div>
+          <div>
               <Link className="text-secondary text-decoration-none">
-                9:00am a 5:00pm
+                9:00am a 8:00pm
               </Link>
-            </div>
-
+          </div>
             <div>
               <Link className="text-secondary text-decoration-none">
-                Lunes a Viernes
+                Lunes a Domingo
               </Link>
             </div>
           </div>
-          <div className="col-xs-12 col-md-6 col-lg-3 ">
-            <p className="h5  mt-3 ">Conócenos</p>
-
+          <div className="col-xs-12 col-md-6 col-lg-2">
+            <p className="h5 mb-3 mt-3">No dudes en llamarnos</p>
+          <div>
+              <h6 className="text-secondary text-decoration-none">
+                <b>Sucursal Matamoros </b>
+              </h6>
+              <h6 className="text-secondary text-decoration-none">
+                Tel: 797-121-4538
+              </h6>
+          </div>
             <div>
-              <Link className="text-secondary text-decoration-none">
-                Tel: 56-1598-7650
+              <h6 className="text-secondary text-decoration-none">
+                <b>Sucursal zona Centro</b>
+              </h6>
+              <h6 className="text-secondary text-decoration-none">
+                Tel: 797-141-5421
+              </h6>
+            </div>
+            <div>
+              <h6 className="text-secondary text-decoration-none">
+                <b>Telefóno fijo</b>
+              </h6>
+              <h6 className="text-secondary text-decoration-none">
+                Tel: 797-104-0477
+              </h6>
+            </div>
+          </div>
+          <div className="col-xs-12 col-md-6 col-lg-2 ">
+            <p className="h5  mt-3 ">Nos encuentras en</p>
+            <div>
+              <Link to='https://acortar.link/KlUlRH'className="text-secondary text-decoration-none link-warning" target="_blank">
+                Sucursal Boulevard Matamoros
               </Link>
             </div>
             <div>
-              <Link className="text-secondary text-decoration-none">
-                Dirección
-              </Link>
-            </div>
-            <div>
-              <Link className="text-secondary text-decoration-none">
-                Dirección
+              <Link to='https://acortar.link/BZRwEJ' className="text-secondary text-decoration-none link-warning"target="_blank">
+                Sucursal zona Centro
               </Link>
             </div>
             <div>
               <Link className="text-secondary text-decoration-none"></Link>
             </div>
+            <div>
+             
+            </div>
+            
+          
           </div>
-          <div className="col-xs-12 col-md-6 col-lg-3 ">
-            <div className="h5 mt-3 ">Legales</div>
-            <ul className="list-group list-unstyled ">
-              <li>
-                <Link
-                  className=" text-decoration-none text-secondary link-warning"
-                  to="aviso-legal.html"
-                >
-                  Aviso legal
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className=" text-decoration-none text-secondary link-warning"
-                  to="politica-privacidad.html"
-                >
-                  Política de privacidad
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className=" text-decoration-none text-secondary link-warning"
-                  to="politica-cookies.html"
-                >
-                  Política de cookies
-                </Link>
-              </li>
-            </ul>
-            <div></div>
-          </div>
+        
+      
 
           <hr className="mt-3" />
           <div className="col-xs-12 col-md-6 col-lg-3 container-fluid">

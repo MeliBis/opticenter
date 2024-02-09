@@ -15,10 +15,11 @@ const Contact = () => {
           <div className="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2>Sucursal Boulevard Matamoros</h2>
             <p className="lead mb-0">
-            73310, Col San Jose, 73310 Zacatlán, Pue. <br/>
+            Calle 5 de febrero, colonia 5 de febrero<br/>
             </p>
-            <p className="text-secondary">Teléfono: 797 121 4538</p>
-             <button className="btn btn-secondary">Ir allá</button>
+            <p className="text-secondary">Teléfono: 7971214538</p>
+            <Link className="btn btn-primary btn-xl " target="_blank" to="https://acortar.link/KlUlRH">Ir allá</Link>
+
           </div>
         </div>
         <div className="row g-0">
@@ -29,8 +30,10 @@ const Contact = () => {
           <div className="col-lg-6 my-auto showcase-text">
             <h2>Sucursal Zona Centro</h2>
             <p className="lead mb-0">
-            Dirección, Teléfono <br/>
-            <Link className="btn btn-primary btn-xl " to="https://acortar.link/1fuPcC">Ir allá</Link>
+            Calle Hermenegildo Galeana 10<br/>
+            <p className="text-secondary">Teléfono: 7971415421</p>
+
+            <Link className="btn btn-primary btn-xl "target="_blank" to="https://acortar.link/BZRwEJ">Ir allá</Link>
 
             </p>
           </div>
@@ -41,12 +44,11 @@ const Contact = () => {
             
           />
           <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Extra</h2>
+            <h2>Jornadas visuales</h2>
             <p className="lead mb-0">
-           extra
+            ¡Visítanos en las próximas jornadas visuales y descubre cómo podemos ayudarte a mejorar tu visión!
             </p>
             <br/>
-            <button className="btn btn-secondary">Ir allá</button>
           </div>
         </div>
       </div>

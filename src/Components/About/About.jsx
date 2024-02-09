@@ -23,15 +23,20 @@ const About = () => {
               <div className="fs-3 fw-light text-muted">
               Ve más allá, ve mejor
               </div>
-              <h1 className="display-3 fw-bolder mb-5">
+              <h1 className="display-3 fw-bolder mb-3">
                 <span className="text-gradient d-inline">
-                  Hola, soy la doctora Analí Cerecedo
+                  Hola, soy <br /> Lic. Optometrista Analí Cerecedo
                 </span>
               </h1>
-              <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                <p className="text-center">
-                  Educación, Universidad, diplomas/certificados
-                 </p>
+              <div className=" mb-3">
+                <h6 className="text-center lead fw-light mb-2">
+               Licenciatura en Optometría en el <span className="text-secondary"> Instituto Politécnico Nacional</span> 
+                 </h6> 
+                <h6 className="text-center lead fw-light mb-4">
+                Cedula profesional <span className="text-secondary"> 11578786</span> 
+                 </h6>
+                 
+             
 
               </div>
             </div>
@@ -63,10 +68,10 @@ const About = () => {
                 <span className="text-gradient d-inline">Sobre mí</span>
               </h2>
               <p className="lead fw-light mb-4">
-                Doctora Anlí Cerecedo
+                Lic. Optometrista Analí Cerecedo
               </p>
               <p className="text-muted">
-              Soy una optometrista apasionada por la salud visual. Cuenta con 10 años de experiencia en el campo, y se dedica a brindar a sus pacientes una atención personalizada y de alta calidad. Es especialista en la detección y tratamiento de problemas de visión, incluyendo errores refractivos (miopía, hipermetropía, astigmatismo), enfermedades oculares (glaucoma, cataratas, degeneración macular) y problemas de visión binocular. También ofrece terapia visual para mejorar la coordinación ojo-mano, la percepción espacial y otras habilidades visuales.                </p>
+              Soy una optometrista apasionada por la salud visual. Cuenta con 10 años de experiencia en el campo, y se dedica a brindar a sus pacientes una atención personalizada y de alta calidad. Es especialista en la detección y tratamiento de problemas de visión, incluyendo errores refractivos (miopía, hipermetropía, astigmatismo), enfermedades oculares (glaucoma, cataratas, degeneración macular) y problemas de visión binocular. También ofrezco terapia visual para mejorar la coordinación ojo-mano, la percepción espacial y otras habilidades visuales.                </p>
               <div className="d-flex justify-content-center fs-2 gap-4">
                 <Link className="text-gradient" to="#">
                   <i className="bi bi-twitter" />

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import imgProduct from '../../assets/products/gafas.png'
+import imgProduct from '../../assets/products/gafas-products.png'
 
 const IntroProducts = () => {
   return (
@@ -14,9 +14,7 @@ const IntroProducts = () => {
             <h2 className="display-5 fw-bold lh-1 mb-3">Tus ojos merecen lo mejor,<span className="text-warning">elige nuestros armazones  </span> </h2>
             <p className="lead">Armazones para hombres, mujeres y niños."</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <Link to='/menu' className="text-reset">
-              <button type="button" className="btn btn-secondary btn-lg px-4">Ver más</button>
-              </Link>
+      
 
             </div>
           </div>

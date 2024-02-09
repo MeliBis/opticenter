@@ -86,8 +86,8 @@ const Section2Gallery = () => {
               <img className="img-fluid" src={imgGaleria4} alt="..." />
             </a>
             <div className="portfolio-caption">
-              <div className="portfolio-caption-heading">Southwest</div>
-              <div className="portfolio-caption-subheading text-muted">Website Design</div>
+              <div className="portfolio-caption-heading">Prueba</div>
+              <div className="portfolio-caption-subheading text-muted">Lentes de moda</div>
             </div>
           </div>
         </div>

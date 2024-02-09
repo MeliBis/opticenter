@@ -3,12 +3,13 @@
 :root{
     --main-color:#0061A9;
     --second-color:;
-    --acento:;
+    --acento:#ffc107;
     --white:#fff;
 }
-h1,h2,h5{
+h1,h2,h4,h5{
   color: var(--main-color);
 }
+
 .btn-general{
     background-color:white ;
     padding: 10px 20px;
@@ -18,7 +19,7 @@ h1,h2,h5{
   background-color: var(--main-color);
   font-size: 16px;
   margin-top: 5px;
-  padding: 10px 15px;
+  padding: 10px 20px;
   color: var(--white);
    transition: 0.5s ease;
  }
@@ -89,8 +90,7 @@ color: var(--main-color);
 .gallery-row .gallery-column .gallery-img:hover{
   filter: grayscale(0) brightness(1);
 }
-/* @media  screen and(max-width: 680px){
-  .gallery-row .gallery-column{
-    flex: 50%;
-  }
-} */
+/* servicio-home */
+.services-text:hover{
+  color: var(--acento);
+}

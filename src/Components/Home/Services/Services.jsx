@@ -9,10 +9,7 @@ const Services = () => {
       <section className="page-section" >
         <div className="container">
           <div className="text-center">
-       {/*      <h2 className="section-heading text-uppercase">Servicios</h2>
-            <h3 className="section-subheading text-muted">
-             Tecnología de última generación: "Los mejores resultados para tu visión."
-            </h3> */}
+   
             <h3 className="section-subheading text-muted margen">
              Tecnología de última generación: "Los mejores resultados para tu visión."
             </h3>
@@ -20,34 +17,32 @@ const Services = () => {
           <div className="row text-center mt-5 ">
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <Link to='/productos'>
-                  <img src={productsIcon} width={100} className="" alt="" />
+                  <img src={productsIcon} width={100} className="products-img mb-3" alt="" />
+                <Link to='/productos' className='text-decoration-none '>
+                    <h4 className="mb-3  services-text">Productos</h4>
                 </Link>
                </span>
-              <h4 className="mb-3 ">Productos</h4>
               <p className="text-muted">
               </p>
             </div>
             <div className="col-md-4 mb-3">
               <span className="fa-stack fa-4x">
-                <Link to='/productos'>
-                  <img src={servicesIcon} width={100} className="" alt="" />
+                  <img src={servicesIcon} width={100}  alt="" />
+                <Link to='/productos'  className='text-decoration-none'>
+                  <h4 className="my-3 services-text">Servicios</h4>
                 </Link>
               </span>
-              <h4 className="my-3">Servicios</h4>
-              <p className="text-muted">
-              </p>
+           
             </div>
             <div className="col-md-4 ">
               <span className="fa-stack fa-4x">
-                <Link to='/contacto'>
-                  <img src={sucursalIcon} width={100} className="" alt="" />
+                  <img src={sucursalIcon} width={100} className="products-img" alt="" />
+                <Link to='/contacto'  className='text-decoration-none'>
+                  <h4 className="my-3 services-text">Sucursales</h4>
+
                 </Link>
               </span>
-              <h4 className="my-3">Sucursales</h4>
-              <p className="text-muted">
-               
-              </p>
+           
             </div>
           </div>
         </div>
