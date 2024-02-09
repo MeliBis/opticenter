@@ -9,11 +9,12 @@ const ProductsPage = () => {
     <div>
       <IntroProducts/>
       <IconosProducts/>
-      <CarouselProductsArmazon/>
+      <CarouselProducts/>
 
       <GalleryProducts/>
-      <h2 className="container margen text-center">carrusel productos</h2>
-      <CarouselProducts/>
+      <h2 className="container margen text-center">¿Por qué debo utilizar lentes?</h2>
+      <CarouselProductsArmazon/>
+
     </div>
   )
 }

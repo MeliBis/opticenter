@@ -1,3 +1,4 @@
+import Installations from "../Home/Installations"
 import Section0Portada from "../Home/Section0Portada"
 import Section1Intro from "../Home/Section1Intro"
 import Section2Gallery from "../Home/Section2Gallery"
@@ -12,6 +13,7 @@ const HomePages = () => {
        <Services/>
        <Section2Gallery/>
        <Section3Testimonials/>
+       <Installations/>
        <Section4FrequentQuestions/>
     </div>
   )

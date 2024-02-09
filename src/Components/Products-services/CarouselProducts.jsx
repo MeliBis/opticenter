@@ -15,31 +15,18 @@ const CarouselProducts = () => {
         <div className="carousel-item active ">
           <div className="card card-testimonial_style" style={{ width: "20rem" }}>
             <img src={imgSol} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Lentes de sol</h5>
-              <p className="card-text text-secondary">
-              Se usan para proteger los ojos de los rayos ultravioleta (UV) del sol. También pueden ayudar a reducir el deslumbramiento y mejorar la comodidad visual.              </p>
-            </div>
+       
           </div>
         </div>
         <div className="carousel-item">
         <div className="card card-testimonial_style" style={{ width: "18rem" }}>
             <img src={imgProguesivos} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Lentes progresivas</h5>
-              <p className="card-text text-secondary">
-              Son lentes multifocales que no tienen líneas visibles. Ofrecen una visión clara a todas las distancias.              </p>
-            </div>
+         
           </div>
         </div>
         <div className="carousel-item">
         <div className="card card-testimonial_style" style={{ width: "18rem" }}>
             <img src={imgContacto} className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title"> Lentes de contacto </h5>
-              <p className="card-text text-secondary">
-                Son lentes delgadas que se colocan sobre la superficie del ojo. Se pueden usar para corregir la visión, mejorar la comodidad visual o por razones cosméticas.              </p>
-            </div>
           </div>
         </div>
       </div>
