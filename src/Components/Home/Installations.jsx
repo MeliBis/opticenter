@@ -5,12 +5,12 @@ const Installations = () => {
       <div className="container">
         <div className="section-title">
           <h2 className="text-center">El equipo y las instalaciones detrás de Opricenter</h2>
-          <p>
+          <p className="text-center">
           En Opti Center, creemos que nuestro equipo y nuestras instalaciones son fundamentales para nuestro éxito.
           </p>
         </div>
       </div>
-      <div className="container">
+      <div className="container<a">
         <div className="row g-0">
           <div className="col-lg-3 col-md-4">
             <div className="gallery-item">

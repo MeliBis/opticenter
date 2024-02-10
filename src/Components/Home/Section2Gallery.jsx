@@ -1,10 +1,5 @@
-import imgGaleria1 from '../../assets/gallery/1.jpg'
-import imgGaleria2 from '../../assets/gallery/2.jpg'
-import imgGaleria3 from '../../assets/gallery/3.jpg'
-import imgGaleria4 from '../../assets/gallery/4.jpg'
-import imgGaleria5 from '../../assets/gallery/5.jpg'
-import imgGaleria6 from '../../assets/gallery/6.jpg'
-
+import Card from '../Template/Card'
+import gallery from '../Data/gallery'
 
 const Section2Gallery = () => {
   return (
@@ -15,97 +10,22 @@ const Section2Gallery = () => {
         <h3 className="section-subheading text-muted mb-5 mt-3">
           Cuída tus ojos, cuida tu futuro.</h3>
       </div>
+
       <div className="row">
-        <div className="col-lg-4 col-sm-6 mb-4">
-          {/* Portfolio item 1*/}
-          <div className="portfolio-item">
-            <a className="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
-              </div>
-              <img className="img-fluid" src={imgGaleria1} alt="..." />
-            </a>
-            <div className="portfolio-caption">
-              <div className="portfolio-caption-heading">Prueba</div>
-              <div className="portfolio-caption-subheading text-muted">Lentes oftálmicos</div>
+       
+       {
+          gallery.map(card => (
+            <div key={card.id} className='col-md-4 col-md-6 col-lg-4 mb-4'  >
+              <Card title={card.title} description={card.description} img={card.img}/>
             </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6 mb-4">
-          {/* Portfolio item 2*/}
-          <div className="portfolio-item">
-            <a className="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
-              </div>
-              <img className="img-fluid" src={imgGaleria6} alt="..." />
-            </a>
-            <div className="portfolio-caption">
-              <div className="portfolio-caption-heading">Explora</div>
-              <div className="portfolio-caption-subheading text-muted">lentes fotocromáticos </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6 mb-4">
-          {/* Portfolio item 3*/}
-          <div className="portfolio-item">
-            <a className="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
-              </div>
-              <img className="img-fluid" src={imgGaleria2} alt="..." />
-            </a>
-            <div className="portfolio-caption">
-              <div className="portfolio-caption-heading">Prueba</div>
-              <div className="portfolio-caption-subheading text-muted">Lentes de sol</div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          {/* Portfolio item 4*/}
-          <div className="portfolio-item">
-            <a className="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
-              </div>
-              <img className="img-fluid" src={imgGaleria3} alt="..." />
-            </a>
-            <div className="portfolio-caption">
-              <div className="portfolio-caption-heading">Prueba</div>
-              <div className="portfolio-caption-subheading text-muted">Lentes de lectura</div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-          {/* Portfolio item 5*/}
-          <div className="portfolio-item">
-            <a className="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
-              </div>
-              <img className="img-fluid" src={imgGaleria4} alt="..." />
-            </a>
-            <div className="portfolio-caption">
-              <div className="portfolio-caption-heading">Prueba</div>
-              <div className="portfolio-caption-subheading text-muted">Lentes de moda</div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-sm-6">
-          {/* Portfolio item 6*/}
-          <div className="portfolio-item">
-            <a className="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
-              </div>
-              <img className="img-fluid" src={imgGaleria5} alt="..." />
-            </a>
-            <div className="portfolio-caption">
-              <div className="portfolio-caption-heading">Todo terreno</div>
-              <div className="portfolio-caption-subheading text-muted">Lentes polarizados</div>
-            </div>
-          </div>
-        </div>
+          ))
+       }
+
+
+        
+
+
+        
       </div>
     </div>
   </section>

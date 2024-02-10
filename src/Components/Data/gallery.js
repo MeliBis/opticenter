@@ -1,39 +1,46 @@
-const imagenGaleria = [
+import imgGallery1 from '../../assets/gallery/1.jpg'
+import imgGallery2 from '../../assets/gallery/2.jpg'
+import imgGallery3 from '../../assets/gallery/5.jpg'
+import imgGallery4 from '../../assets/gallery/4.jpg'
+import imgGallery5 from '../../assets/gallery/3.jpg'
+import imgGallery6 from '../../assets/gallery/6.jpg'
+
+const gallery = [
     {
         id: 1,
-        title: 'Galeria 1',
-        description: "Galeria de fotos del evento",
-        img:"images/galeria"
+        title: 'Explora',
+        description: "Lentes polarizados",
+        img:imgGallery1
     },
     {
         id: 2,
-        title: 'Galeria 1',
-        description: "Galeria de fotos del evento",
-        img:"images/galeria"
+        title: 'Descubre',
+        description: "Lentes oftálmicos",
+        img: imgGallery2
     },
     {
         id: 3,
-        title: 'Galeria 1',
-        description: "Galeria de fotos del evento",
-        img:"images/galeria"
+        title: 'Recorre',
+        description: "Lentes Fotocromáticos",
+        img:imgGallery3
     },
     {
         id: 4,
-        title: 'Galeria 1',
-        description: "Galeria de fotos del evento",
-        img:"images/galeria"
+        title: 'Aventúrate',
+        description: "Lentes de moda",
+        img:imgGallery4
     },
     {
         id: 5,
-        title: 'Galeria 1',
-        description: "Galeria de fotos del evento",
-        img:"images/galeria"
+        title: 'Observa',
+        description: "Lentes bifocales",
+        img:imgGallery5
     },
     {
         id: 6,
-        title: 'Galeria 1',
-        description: "Galeria de fotos del evento",
-        img:"images/galeria"
+        title: 'Viaja',
+        description: "Lentes solares",
+        img:imgGallery6
     },
 ]
-export default imagenGaleria;
+export default gallery;

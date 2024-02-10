@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import productsIcon from '../../../assets/products/gafas.png'
-import servicesIcon from '../../../assets/services/services-icono.png'
-import sucursalIcon from '../../../assets/services/sucursal-icono.png'
+import servicesIcon from '../../../assets/services/services.svg'
+import sucursalIcon from '../../../assets/services/sucursal-icono.svg'
 const Services = () => {
   return (
     <div className=''>
@@ -15,11 +15,11 @@ const Services = () => {
             </h3>
           </div>
           <div className="row text-center mt-5 ">
-            <div className="col-md-4">
-              <span className="fa-stack fa-4x">
-                  <img src={productsIcon} width={100} className="products-img mb-3" alt="" />
-                <Link to='/productos' className='text-decoration-none '>
-                    <h4 className="mb-3  services-text">Productos</h4>
+            <div className="col-md-4 ">
+              <span className="fa-stack fa-4x ">
+                  <img src={productsIcon} width={100} className="products-img mb-3  " alt="" />
+                    <Link to='/productos' className='text-decoration-none '>
+                    <h4 className="mb-3 services-text ">Productos</h4>
                 </Link>
                </span>
               <p className="text-muted">
@@ -28,7 +28,7 @@ const Services = () => {
             <div className="col-md-4 mb-3">
               <span className="fa-stack fa-4x">
                   <img src={servicesIcon} width={100}  alt="" />
-                <Link to='/productos'  className='text-decoration-none'>
+                <Link to='/productos'  className='text-decoration-none '>
                   <h4 className="my-3 services-text">Servicios</h4>
                 </Link>
               </span>
