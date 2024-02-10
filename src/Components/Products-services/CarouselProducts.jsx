@@ -1,11 +1,13 @@
-import imgContacto from '../../assets/products/contacto.png'
-import imgSol from '../../assets/products/sol.png'
-import imgProguesivos from '../../assets/products/progresivos.png'
+import imgCaruselP1 from '../../assets/products/lentes/1.jpg'
+import imgCaruselP2 from '../../assets/products/lentes/2.jpg'
+import imgCaruselP3 from '../../assets/products/lentes/3.jpg'
+import imgCaruselP4 from '../../assets/products/lentes/4.jpg'
+import imgCaruselP5 from '../../assets/products/lentes/5.jpg'
+
 const CarouselProducts = () => {
   return (
     <div className=" container d-flex justify-content-center margen">
-    {/*       <h2 className='text-center'>Testimonios</h2>
-     */}{" "}
+     
     <div
       id="carouselExampleAutoplaying"
       className="carousel slide  text-center "
@@ -14,19 +16,19 @@ const CarouselProducts = () => {
       <div className="carousel-inner  ">
         <div className="carousel-item active ">
           <div className="card card-testimonial_style" style={{ width: "20rem" }}>
-            <img src={imgSol} className="card-img-top" alt="..." />
+            <img src={imgCaruselP1} className="card-img-top" alt="..." />
        
           </div>
         </div>
         <div className="carousel-item">
         <div className="card card-testimonial_style" style={{ width: "18rem" }}>
-            <img src={imgProguesivos} className="card-img-top" alt="..." />
+            <img src={imgCaruselP2} className="card-img-top" alt="..." />
          
           </div>
         </div>
         <div className="carousel-item">
         <div className="card card-testimonial_style" style={{ width: "18rem" }}>
-            <img src={imgContacto} className="card-img-top" alt="..." />
+            <img src={imgCaruselP4} className="card-img-top" alt="..." />
           </div>
         </div>
       </div>

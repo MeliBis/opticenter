@@ -17,7 +17,7 @@ const Services = () => {
           <div className="row text-center mt-5 ">
             <div className="col-md-4 ">
               <span className="fa-stack fa-4x ">
-                  <img src={productsIcon} width={100} className="products-img mb-3  " alt="" />
+                  <Link to='/productos'><img src={productsIcon} width={100} className="products-img mb-3  " alt="" /></Link> 
                     <Link to='/productos' className='text-decoration-none '>
                     <h4 className="mb-3 services-text ">Productos</h4>
                 </Link>
@@ -27,7 +27,7 @@ const Services = () => {
             </div>
             <div className="col-md-4 mb-3">
               <span className="fa-stack fa-4x">
-                  <img src={servicesIcon} width={100}  alt="" />
+                <Link to='/productos'><img src={servicesIcon} width={100}  alt="" /></Link>  
                 <Link to='/productos'  className='text-decoration-none '>
                   <h4 className="my-3 services-text">Servicios</h4>
                 </Link>
@@ -36,7 +36,7 @@ const Services = () => {
             </div>
             <div className="col-md-4 ">
               <span className="fa-stack fa-4x">
-                  <img src={sucursalIcon} width={100} className="products-img" alt="" />
+                 <Link to='/contacto'><img src={sucursalIcon} width={100} className="products-img" alt="" /> </Link> 
                 <Link to='/contacto'  className='text-decoration-none'>
                   <h4 className="my-3 services-text">Sucursales</h4>
 

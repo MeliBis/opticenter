@@ -9,6 +9,7 @@ const ProductsPage = () => {
     <div>
       <IntroProducts/>
       <IconosProducts/>
+      <h2 className="container text-center margen">Elije el armazon que se adapte a tu esencia</h2>
       <CarouselProducts/>
 
       <GalleryProducts/>

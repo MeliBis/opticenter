@@ -1,5 +1,10 @@
 import { Link } from 'react-router-dom'
-import imgGalleryProduct1 from '../../assets/gallery/5.jpg'
+import imgGalleryP1 from '../../assets/new/1.jpg'
+import imgGalleryP2 from '../../assets/new/2.jpg'
+import imgGalleryP3 from '../../assets/new/3.jpg'
+import imgGalleryP4 from '../../assets/new/4.jpg'
+import imgGalleryP5 from '../../assets/new/6.jpg'
+import imgGalleryP6 from '../../assets/new/7.jpg'
 
 const GalleryProducts = () => {
   return (
@@ -38,7 +43,7 @@ const GalleryProducts = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid gallery-img" src={imgGalleryProduct1} alt="..." />
+              <img className="img-fluid gallery-img" src={imgGalleryP1} alt="..." />
             </Link>
           </div>
         </div>
@@ -49,7 +54,7 @@ const GalleryProducts = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid " src={imgGalleryProduct1} alt="..." />
+              <img className="img-fluid " src={imgGalleryP2} alt="..." />
             </Link>
           
           </div>
@@ -61,7 +66,7 @@ const GalleryProducts = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGalleryProduct1} alt="..." />
+              <img className="img-fluid" src={imgGalleryP3} alt="..." />
             </Link>
         
           </div>
@@ -73,7 +78,7 @@ const GalleryProducts = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGalleryProduct1} alt="..." />
+              <img className="img-fluid" src={imgGalleryP4} alt="..." />
             </Link>
          
           </div>
@@ -85,7 +90,7 @@ const GalleryProducts = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGalleryProduct1} alt="..." />
+              <img className="img-fluid" src={imgGalleryP5} alt="..." />
             </Link>
        
           </div>
@@ -97,7 +102,7 @@ const GalleryProducts = () => {
               <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
               </div>
-              <img className="img-fluid" src={imgGalleryProduct1} alt="..." />
+              <img className="img-fluid" src={imgGalleryP6} alt="..." />
             </Link>
           </div>
         </div>
