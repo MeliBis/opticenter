@@ -1,132 +1,94 @@
+import { Link } from "react-router-dom";
+import imgInstallation1 from '../../assets/installations/eye-woman1.jpg'
+import imgInstallation2 from '../../assets/installations/optometry2.jpg'
+import imgInstallation3 from '../../assets/installations/eye-woman3.jpg'
+import imgInstallation4 from '../../assets/installations/optometry1.jpg'
+import imgInstallation5 from '../../assets/installations/eye-woman2.jpg'
+import imgInstallation6 from '../../assets/installations/optometry3.jpg'
 
 const Installations = () => {
   return (
-    <section id="gallery" className="gallery margen">
-      <div className="container">
-        <div className="section-title">
-          <h2 className="text-center">El equipo y las instalaciones detrás de Opricenter</h2>
-          <p className="text-center">
-          En Opti Center, creemos que nuestro equipo y nuestras instalaciones son fundamentales para nuestro éxito.
-          </p>
-        </div>
+    <section className="page-section bg-light margen" >
+    <div className="container">
+      <div className="text-center">
+        <h2 className="section-heading text-uppercase mt-5 mb-5">Lo más nuevo</h2>
+        {/* <h3 className="section-subheading text-muted mb-5 mt-3">
+          Cuída tus ojos, cuida tu futuro.</h3> */}
       </div>
-      <div className="container<a">
-        <div className="row g-0">
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a
-                href="assets/img/gallery/gallery-1.jpg"
-                className="galelry-lightbox"
-              >
-                <img
-                  src="assets/img/gallery/gallery-1.jpg"
-                  alt
-                  className="img-fluid"
-                />
-              </a>
-            </div>
+      <div className="row ">
+        <div className="col-lg-4 col-sm-6 mb-4 gallery-column">
+          {/* Portfolio item 1*/}
+          <div className="portfolio-item">
+            <Link className="portfolio-link" data-bs-toggle="modal" to="#portfolioModal1">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
+              </div>
+              <img className="img-fluid gallery-img" src={imgInstallation1} alt="..." />
+            </Link>
           </div>
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a
-                href="assets/img/gallery/gallery-2.jpg"
-                className="galelry-lightbox"
-              >
-                <img
-                  src="assets/img/gallery/gallery-2.jpg"
-                  alt
-                  className="img-fluid"
-                />
-              </a>
-            </div>
+        </div>
+        <div className="col-lg-4 col-sm-6 mb-4">
+          {/* Portfolio item 2*/}
+          <div className="portfolio-item">
+            <Link className="portfolio-link" data-bs-toggle="modal" to="#portfolioModal2">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
+              </div>
+              <img className="img-fluid " src={imgInstallation2} alt="..." />
+            </Link>
+          
           </div>
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a
-                href="assets/img/gallery/gallery-3.jpg"
-                className="galelry-lightbox"
-              >
-                <img
-                  src="assets/img/gallery/gallery-3.jpg"
-                  alt
-                  className="img-fluid"
-                />
-              </a>
-            </div>
+        </div>
+        <div className="col-lg-4 col-sm-6 mb-4">
+          {/* Portfolio item 3*/}
+          <div className="portfolio-item">
+            <Link className="portfolio-link" data-bs-toggle="modal" to="#portfolioModal3">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
+              </div>
+              <img className="img-fluid" src={imgInstallation3} alt="..." />
+            </Link>
+        
           </div>
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a
-                href="assets/img/gallery/gallery-4.jpg"
-                className="galelry-lightbox"
-              >
-                <img
-                  src="assets/img/gallery/gallery-4.jpg"
-                  alt
-                  className="img-fluid"
-                />
-              </a>
-            </div>
+        </div>
+        <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+          {/* Portfolio item 4*/}
+          <div className="portfolio-item">
+            <Link className="portfolio-link" data-bs-toggle="modal" to="#portfolioModal4">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
+              </div>
+              <img className="img-fluid" src={imgInstallation4} alt="..." />
+            </Link>
+         
           </div>
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a
-                href="assets/img/gallery/gallery-5.jpg"
-                className="galelry-lightbox"
-              >
-                <img
-                  src="assets/img/gallery/gallery-5.jpg"
-                  alt
-                  className="img-fluid"
-                />
-              </a>
-            </div>
+        </div>
+        <div className="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+          {/* Portfolio item 5*/}
+          <div className="portfolio-item">
+            <Link className="portfolio-link" data-bs-toggle="modal" to="#portfolioModal5">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
+              </div>
+              <img className="img-fluid" src={imgInstallation5} alt="..." />
+            </Link>
+       
           </div>
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a
-                href="assets/img/gallery/gallery-6.jpg"
-                className="galelry-lightbox"
-              >
-                <img
-                  src="assets/img/gallery/gallery-6.jpg"
-                  alt
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a
-                href="assets/img/gallery/gallery-7.jpg"
-                className="galelry-lightbox"
-              >
-                <img
-                  src="assets/img/gallery/gallery-7.jpg"
-                  alt
-                  className="img-fluid"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4">
-            <div className="gallery-item">
-              <a
-                href="assets/img/gallery/gallery-8.jpg"
-                className="galelry-lightbox"
-              >
-                <img
-                  src="assets/img/gallery/gallery-8.jpg"
-                  alt
-                  className="img-fluid"
-                />
-              </a>
-            </div>
+        </div>
+        <div className="col-lg-4 col-sm-6">
+          {/* Portfolio item 6*/}
+          <div className="portfolio-item">
+            <Link className="portfolio-link" data-bs-toggle="modal" to="#portfolioModal6">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x" /></div>
+              </div>
+              <img className="img-fluid" src={imgInstallation6} alt="..." />
+            </Link>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   );
 };
 
