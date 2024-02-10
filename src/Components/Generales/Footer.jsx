@@ -87,7 +87,7 @@ const Footer = () => {
                 <Link
                   to="https://www.facebook.com/opticenter3/"
                   target={"blank"}
-                  className="text-reset "
+                  className="text-reset link-warning "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@ const Footer = () => {
                 <Link
                   to="https://wa.me/7971214538?text=Hola,%20necesito%20agendar%20una%20mi%20cita"
                   target={"blank"}
-                  className="text-reset"
+                  className="text-reset link-warning"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ const Footer = () => {
                 <Link
                   to="https://www.instagram.com/opticenter3/reels/"
                   target={"blank"}
-                  className="text-reset me-4"
+                  className="text-reset me-4 link-warning"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

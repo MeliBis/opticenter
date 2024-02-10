@@ -11,7 +11,7 @@ const Installations = () => {
     <section className="page-section bg-light margen" >
     <div className="container">
       <div className="text-center">
-        <h2 className="section-heading text-uppercase mt-5 mb-5">Lo más nuevo</h2>
+        <h2 className="section-heading text-uppercase mt-5 mb-5">Tecnología de última generación <span className="text-warning">para una visión perfecta </span> </h2>
         {/* <h3 className="section-subheading text-muted mb-5 mt-3">
           Cuída tus ojos, cuida tu futuro.</h3> */}
       </div>
