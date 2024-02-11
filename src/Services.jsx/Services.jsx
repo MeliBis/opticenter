@@ -25,7 +25,7 @@ const Services = () => {
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="25"
+                  width="40"
                   fill="currentColor"
                   className="bi bi-eye mx-3 text-warning"
                   viewBox="0 0 16 16"
@@ -64,7 +64,7 @@ const Services = () => {
               <h4>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="25"
+                  width="45"
                   fill="currentColor"
                   className="bi bi-sunglasses mx-3 text-warning"
                   viewBox="0 0 16 16"
@@ -90,7 +90,7 @@ const Services = () => {
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="25"
+                  width="40"
                   fill="currentColor"
                   className="bi bi-eye-slash mx-3 text-warning"
                   viewBox="0 0 16 16"
@@ -123,7 +123,7 @@ const Services = () => {
               <h4>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="25"
+                  width="40"
                   fill="currentColor"
                   className="bi bi-bullseye mx-3 text-warning"
                   viewBox="0 0 16 16"
