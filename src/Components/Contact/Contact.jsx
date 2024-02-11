@@ -71,7 +71,7 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-            <Link className="btn btn-primary btn-xl " target="_blank" to="https://acortar.link/KlUlRH">Ir allá</Link>
+            <Link className="btn btn-primary btn-xl " target="_blank" to="https://acortar.link/Ibzw3t">Ir allá</Link>
 
           </div>
         </div>
@@ -148,7 +148,7 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-            <Link className="btn btn-primary btn-xl "target="_blank" to="https://acortar.link/BZRwEJ">Ir allá</Link>
+            <Link className="btn btn-primary btn-xl "target="_blank" to="https://acortar.link/mfUIOR">Ir allá</Link>
           </div>
 
 
