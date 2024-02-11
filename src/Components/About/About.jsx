@@ -29,10 +29,10 @@ const About = () => {
                 </span>
               </h1>
               <div className=" mb-3">
-                <h6 className="text-center lead fw-light mb-2">
-               Licenciatura en Optometría en el <span className="text-secondary"> Instituto Politécnico Nacional</span> 
+                <h6 className=" lead fw-light mb-2">
+               Licenciatura en Optometría, egresada del <span className="text-secondary"> Instituto Politécnico Nacional</span> 
                  </h6> 
-                <h6 className="text-center lead fw-light mb-4">
+                <h6 className="lead fw-light mb-4">
                 Cedula profesional <span className="text-secondary"> 11578786</span> 
                  </h6>
                  

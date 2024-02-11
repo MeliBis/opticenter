@@ -11,6 +11,7 @@ import Navbar from "../Generales/Navbar";
 import AboutPage from "../Pages/AboutPage";
 import ContactPage from "../Pages/ContactPage";
 import ProductsPage from "../Pages/ProductsPage";
+import ServicesPage from "../Pages/ServicesPage";
 
 const Routing = () => {
   return (
@@ -21,6 +22,7 @@ const Routing = () => {
             <Route path="/acerca" element={<AboutPage/>}/>
             <Route path="/contacto" element={<ContactPage/>}/>
             <Route path="/productos" element={<ProductsPage/>}/>
+            <Route path="/servicios" element={<ServicesPage/>}/>
 
             <Route path="/*" element={<Navigate to="/" />} />
 

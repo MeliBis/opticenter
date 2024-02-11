@@ -18,7 +18,7 @@ const IconosProducts = () => {
     </div>
     <div className="col-md-4">
       <span className="fa-stack fa-4x">
-        <Link to='/productos'>
+        <Link to='/servicios'>
           <img src={iconosProduct2} width={100} className="" alt="" />
         </Link>
       </span>

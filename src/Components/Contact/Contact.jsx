@@ -12,13 +12,13 @@ const Contact = () => {
             className="col-lg-6 order-lg-2 text-white showcase-img firs-section-img"
 
           />
+          
           <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Sucursal Boulevard Matamoros</h2>
+            <h2>Sucursal Zona Centro</h2>
             <p className="lead mb-0">
-            Calle 5 de febrero, colonia 5 de febrero<br/>
-            </p>
-            <p className="text-secondary">Teléfono: 7971214538</p>
-            <div className="">
+            Calle Hermenegildo Galeana 10<br/>
+            <p className="text-secondary">Teléfono: 7971415421</p>
+            </p>            <div className="">
             <ul className="d-flex list-unstyled ">
               <li className="contact-link">       
                 <Link
@@ -75,18 +75,26 @@ const Contact = () => {
 
           </div>
         </div>
+
         <div className="row g-0">
           <div
             className="col-lg-6 text-white showcase-img second-section-img"
            
           />
+
+
           <div className="col-lg-6 my-auto showcase-text">
-            <h2>Sucursal Zona Centro</h2>
+          {/*   <h2>Sucursal Zona Centro</h2>
             <p className="lead mb-0">
             Calle Hermenegildo Galeana 10<br/>
             <p className="text-secondary">Teléfono: 7971415421</p>
+            </p> */}
+                       <h2>Sucursal Boulevard Matamoros</h2>
+            <p className="lead mb-0">
+            Calle 5 de febrero, colonia 5 de febrero<br/>
             </p>
-           
+            <p className="text-secondary">Teléfono: 7971214538</p>
+
           <div className="">
             <ul className="d-flex list-unstyled ">
               <li className="contact-link">       
@@ -142,6 +150,8 @@ const Contact = () => {
           </div>
             <Link className="btn btn-primary btn-xl "target="_blank" to="https://acortar.link/BZRwEJ">Ir allá</Link>
           </div>
+
+
         </div>
         <div className="row g-0">
           <div
