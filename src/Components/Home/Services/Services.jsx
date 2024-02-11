@@ -27,8 +27,8 @@ const Services = () => {
             </div>
             <div className="col-md-4 mb-3">
               <span className="fa-stack fa-4x">
-                <Link to='/productos'><img src={servicesIcon} width={100}  alt="" /></Link>  
-                <Link to='/productos'  className='text-decoration-none '>
+                <Link to='/servicios'><img src={servicesIcon} width={100}  alt="logo servicios " /></Link>  
+                <Link to='/servicios'  className='text-decoration-none '>
                   <h4 className="my-3 services-text">Servicios</h4>
                 </Link>
               </span>
