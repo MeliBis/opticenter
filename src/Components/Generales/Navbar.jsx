@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import imgLogo from '../../assets/logo/opticenter4 (1).png'
+import imgLogo from '../../assets/logo/logo-azul-op.png'
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid  ">
         <Link className="navbar-brand" to="/">
-          <img src={imgLogo} alt="" width={100} />
+          <img src={imgLogo} alt="" width={80} />
         </Link>
         <button
           className="navbar-toggler"
