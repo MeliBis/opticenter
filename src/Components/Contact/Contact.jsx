@@ -175,7 +175,7 @@ const Contact = () => {
                   <h4>No dudes en contactarme 😉</h4>
                   <form
                     target="_blank"
-                    action="https://formsubmit.co/melissa.blecona@gmail.com"
+                    action="https://formsubmit.co/316ae32d9ca50b2e67cdcd11b9b10ddf"
                     method="POST"
                   >
                     <div className="form-group">

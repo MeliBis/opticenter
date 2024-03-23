@@ -1,15 +1,16 @@
 import imgContacto from '../../assets/products/contacto.png'
 import imgSol from '../../assets/products/sol.png'
 import imgProguesivos from '../../assets/products/progresivos.png'
+
 const CarouselProductsArmazon = () => {
   return (
-    <div className=" container d-flex justify-content-center margen">
+    <div className=" container d-flex justify-content-center ">
     {/*       <h2 className='text-center'>Testimonios</h2>
      */}{" "}
     <div
-      id="carouselExampleAutoplaying"
+      id="carouselExampleAutoplaying1"
       className="carousel slide  text-center "
-      data-bs-ride="carousel"
+       data-bs-ride="carousel" 
     >
       <div className="carousel-inner  ">
         <div className="carousel-item active ">
@@ -55,7 +56,7 @@ const CarouselProductsArmazon = () => {
       <button
         className="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-target="#carouselExampleAutoplaying1"
         data-bs-slide="next"
       >
         <span className="carousel-control-next-icon" aria-hidden="true" />
