@@ -30,30 +30,36 @@ const Footer = () => {
           </div>
           <div className="col-xs-12 col-md-6 col-lg-2">
             <p className="h5 mb-3 mt-3">No dudes en llamarnos</p>
-          <div>
+            <div>
+            <h6 className="text-secondary text-decoration-none">
+                <b>797-141-5421</b>
+              </h6>
+            </div>
+           
+          {/* <div>
               <h6 className="text-secondary text-decoration-none">
                 <b>Sucursal Matamoros </b>
               </h6>
               <h6 className="text-secondary text-decoration-none">
                 Tel: 797-121-4538
               </h6>
-          </div>
-            <div>
+          </div> */}
+            {/* <div>
               <h6 className="text-secondary text-decoration-none">
                 <b>Sucursal zona Centro</b>
               </h6>
               <h6 className="text-secondary text-decoration-none">
                 Tel: 797-141-5421
               </h6>
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <h6 className="text-secondary text-decoration-none">
                 <b>Telefóno fijo</b>
               </h6>
               <h6 className="text-secondary text-decoration-none">
                 Tel: 797-104-0477
               </h6>
-            </div>
+            </div> */}
           </div>
           <div className="col-xs-12 col-md-6 col-lg-2 ">
             <p className="h5  mt-3 ">Nos encuentras en</p>
