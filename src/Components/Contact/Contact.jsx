@@ -15,7 +15,7 @@ const Contact = () => {
             <p className="lead mb-0">
               Calle Hermenegildo Galeana 10
               <br />
-              <p className="text-secondary">Teléfono: 7971415421</p>
+              <p className="text-secondary">Teléfono: 797-141-5421</p>
             </p>{" "}
             <div className="">
               <ul className="d-flex list-unstyled ">
@@ -96,7 +96,7 @@ const Contact = () => {
               Calle 5 de febrero, colonia 5 de febrero
               <br />
             </p>
-            <p className="text-secondary">Teléfono: 7971214538</p>
+            <p className="text-secondary">Teléfono: 797-121-4538</p>
 
             <div className="">
               <ul className="d-flex list-unstyled ">
